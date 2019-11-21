@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarTextStyle": "white",
+  "bounce": "none",
+  "usingComponents": {
+    "action-item": "/pages/component/actionItem",
+    "article-item": "/pages/component/articleItem"
+  }
+}

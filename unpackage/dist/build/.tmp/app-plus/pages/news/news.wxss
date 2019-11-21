@@ -1,0 +1,6 @@
+
+.uni-media-list-body{height: auto;}
+.uni-media-list-text-top{line-height: 1.4em;}
+.uni-media-list-text-bottom{line-height: 1.4em; padding-top: 10rpx;}
+.row-button{width: 50%;height: 50rpx;font-size: 34rpx; padding: 0 40rpx;}
+

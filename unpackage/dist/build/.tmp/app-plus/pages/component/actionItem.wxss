@@ -1,0 +1,44 @@
+
+page,
+view {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+page {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100%;
+    background-color: #EFEFEF;
+}
+template {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+/* 个人中心 */
+.content {
+	width: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	color: #555555;
+	/* font-size: 14px; */
+}
+.red_text{
+	color: #ff0000;
+}
+.normal_text{
+	color: #555555;
+}
+

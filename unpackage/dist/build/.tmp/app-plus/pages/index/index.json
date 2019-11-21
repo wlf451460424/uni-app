@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarTextStyle": "white",
+  "bounce": "none",
+  "usingComponents": {
+    "mix-pulldown-refresh": "/components/mix-pulldown-refresh/mix-pulldown-refresh",
+    "mix-load-more": "/components/mix-load-more/mix-load-more",
+    "mix-advert": "/components/mix-advert/vue/mix-advert"
+  }
+}

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"uni-media-list-body{height: auto;}\n.",[1],"uni-media-list-text-top{line-height: 1.4em;}\n.",[1],"uni-media-list-text-bottom{line-height: 1.4em; padding-top: ",[0,10],";}\n.",[1],"row-button{width: 50%;height: ",[0,50],";font-size: ",[0,34],"; padding: 0 ",[0,40],";}\n",],undefined,{path:"./pages/news/news.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/news/news.wxml') } }));

@@ -1,0 +1,251 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/index/index",
+		    "style" : {
+		    	"navigationBarTitleText" : "首页",
+		    	"app-plus": {
+					"navigationBarTextStyle": "white",
+		    		"bounce": "none"
+		    	}
+		    }
+		}
+        ,{
+            "path" : "pages/discover/discover",
+            "style" : {
+            	"navigationBarTitleText" : "发现",
+            	"app-plus": {
+            		"navigationBarTextStyle": "white",
+            		"bounce": "none"
+            	}
+            }
+        }
+		,{
+		    "path" : "pages/fabu/fabu",
+		    "style" : {
+		    	"navigationBarTitleText" : "发布",
+		    	"app-plus": {
+		    		"navigationBarTextStyle": "white",
+		    		"bounce": "none"
+		    	}
+		    }
+		}
+		,{
+		    "path" : "pages/service/service",
+		    "style" : {
+				"navigationBarTitleText" : "服务",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		}
+		,{
+		    "path" : "pages/center/center",
+		    "style" : {
+		    	"navigationBarTitleText" : "我的",
+		    	"app-plus": {
+					"navigationBarTextStyle": "white",
+		    		"bounce": "none"
+		    	}
+		    }
+		},
+		
+		{
+		    "path" : "pages/details/details",
+		    "style" : {
+				"navigationBarTitleText" : "详情",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/details/videoDetails",
+		    "style" : {
+				"navigationBarTitleText" : "详情",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"navigationBarTitleText" : "登录",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/login/register",
+		    "style" : {
+				"navigationBarTitleText" : "注册",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/center/personInfo",
+		    "style" : {
+				"navigationBarTitleText" : "个人信息",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/news/news",
+		    "style" : {
+				"navigationBarTitleText" : "详情",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/news/infoDetail",
+		    "style" : {
+				"navigationBarTitleText" : "详情",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/center/actionItem_Details",
+		    "style" : {
+				"navigationBarTitleText" : "动态详情",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/center/articleItem_Details",
+		    "style" : {
+				"navigationBarTitleText" : "文章详情",
+				"navigationBarBackgroundColor": "#000000",
+				"backgroundColor": "#000000"
+			}
+		},
+		{
+		    "path" : "pages/other/thumbsup_page",
+		    "style" : {
+				"navigationBarTitleText" : "点赞列表"
+			}
+		},
+		{
+		    "path" : "pages/discover/wenzhang_view",
+		    "style" : {
+				"navigationBarTitleText" : "文章"
+			}
+		},
+		{
+		    "path" : "pages/discover/wenda_view",
+		    "style" : {
+				"navigationBarTitleText" : "问答"
+			}
+		},
+		{
+		    "path" : "pages/discover/huati_view",
+		    "style" : {
+				"navigationBarTitleText" : "话题"
+			}
+		},
+		{
+		    "path" : "pages/discover/dongtai_view",
+		    "style" : {
+				"navigationBarTitleText" : "动态"
+			}
+		},
+		{
+		    "path" : "pages/discover/xinwen_view",
+		    "style" : {
+				"navigationBarTitleText" : "新闻"
+			}
+		},
+		{
+		    "path" : "pages/discover/xiaozu_view",
+		    "style" : {
+				"navigationBarTitleText" : "小组"
+			}
+		},
+		{
+		    "path" : "pages/discover/tongcheng_view",
+		    "style" : {
+				"navigationBarTitleText" : "同城"
+			}
+		},
+		{
+		    "path" : "pages/discover/daren_view",
+		    "style" : {
+				"navigationBarTitleText" : "达人"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#4cbdf3",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar" : {
+	    "color" : "#555555",
+	    "selectedColor" : "#4cbdf3",
+	    "borderStyle" : "black",
+	    "backgroundColor" : "#ffffff",
+	    "list" : [
+	        {
+	            "pagePath" : "pages/index/index",
+	            "iconPath" : "static/tab-home.png",
+	            "selectedIconPath" : "static/tab-home-current.png",
+	            "text" : "首页"
+	        },
+			{
+			    "pagePath" : "pages/discover/discover",
+			    "iconPath" : "static/tab-faxian.png",
+			    "selectedIconPath" : "static/tab-faxian-current.png",
+			    "text" : "发现"
+			},
+			// {
+			//     "pagePath" : "pages/fabu/fabu",
+			//     "iconPath" : "static/tab-fabu.png",
+			//     "selectedIconPath" : "static/tab-fabu-current.png",
+			//     "text" : "发布"
+			// },
+			{
+			    "pagePath" : "pages/service/service",
+			    "iconPath" : "static/tab-fuwu.png",
+			    "selectedIconPath" : "static/tab-fuwu-current.png",
+			    "text" : "服务"
+			},
+			{
+			    "pagePath" : "pages/center/center",
+			    "iconPath" : "static/tab-center.png",
+			    "selectedIconPath" : "static/tab-center-current.png",
+			    "text" : "我的"
+			}
+	    ]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
