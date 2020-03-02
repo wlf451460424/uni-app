@@ -33,6 +33,22 @@ const discoverList = [{
 // 	name: '热门达人',
 // 	id: '7'
 }];
+const cenrter_tabBars = [{name: '文章',id: '0'},
+	{name: '动态', id: '1'},
+	{name: '笔记',id: '2'},
+	{name: '问答',id: '3'},
+	{name: '更多',id: '4'}
+];
+const cenrter_moreList = [
+	{name: '收藏',id: '0'},
+	{name: '寄养',id: '1'},
+	{name: '领养',id: '2'},
+	{name: '配对',id: '3'},
+	{name: '走失',id: '4'},
+	{name: '救助',id: '5'},
+	{name: '小组',id: '6'},
+	{name: '设置',id: '7'}
+];
 const newsList = [{
 		id: 1,
 		title: '从亲密无间到相爱相杀，这就是人类一败涂地的真相',
@@ -300,6 +316,43 @@ const carelist = [
 		id:8005
 	}
 ]
+const petTimelist = [
+	{
+		date:"14日02月",
+		address:"西安",
+		img_num:4,
+		imgArr: ["../../static/articleImg/01.jpg","../../static/articleImg/02.jpg","../../static/articleImg/03.jpg","../../static/articleImg/04.jpg","../../static/articleImg/05.jpg","../../static/articleImg/06.jpg","../../static/articleImg/07.jpg","../../static/articleImg/08.jpg","../../static/articleImg/09.jpg","../../static/articleImg/10.jpg"],
+		content:'会议强调，要继续集中力量和资源，全面加强湖北省和武汉市疫情防控。要巩固排查和收治成果，切实控制传染源、切断传播途径。要夯实社区排查和防控基础，抽调更多干部支援基层，支持各类在当地的干部积极投身社区防控工作，充分调动群众自我管理、自我服务的积极性，加快补齐老旧小区在卫生防疫、社区服务等方面的短板，深入细致做好群众基本生活保障工作，加强思想政治工作，加强群众心理疏导。',
+	},
+	{
+		date:"14日02月",
+		address:"西安",
+		img_num:3,
+		imgArr: ["../../static/articleImg/01.jpg","../../static/articleImg/02.jpg","../../static/articleImg/03.jpg","../../static/articleImg/04.jpg","../../static/articleImg/05.jpg","../../static/articleImg/06.jpg","../../static/articleImg/07.jpg","../../static/articleImg/08.jpg","../../static/articleImg/09.jpg","../../static/articleImg/10.jpg"],
+		content:'会议强调，要继续集中力量和资源，全面加强湖北省和武汉市疫情防控。要巩固排查和收治成果，切实控制传染源、切断传播途径。要夯实社区排查和防控基础，抽调更多干部支援基层，支持各类在当地的干部积极投身社区防控工作，充分调动群众自我管理、自我服务的积极性，加快补齐老旧小区在卫生防疫、社区服务等方面的短板，深入细致做好群众基本生活保障工作，加强思想政治工作，加强群众心理疏导。',
+	},
+	{
+		date:"14日02月",
+		address:"西安",
+		img_num:2,
+		imgArr: ["../../static/articleImg/01.jpg","../../static/articleImg/02.jpg","../../static/articleImg/03.jpg","../../static/articleImg/04.jpg","../../static/articleImg/05.jpg","../../static/articleImg/06.jpg","../../static/articleImg/07.jpg","../../static/articleImg/08.jpg","../../static/articleImg/09.jpg","../../static/articleImg/10.jpg"],
+		content:'会议强调，要继续集中力量和资源，全面加强湖北省和武汉市疫情防控。要巩固排查和收治成果，切实控制传染源、切断传播途径。要夯实社区排查和防控基础，抽调更多干部支援基层，支持各类在当地的干部积极投身社区防控工作，充分调动群众自我管理、自我服务的积极性，加快补齐老旧小区在卫生防疫、社区服务等方面的短板，深入细致做好群众基本生活保障工作，加强思想政治工作，加强群众心理疏导。',
+	},
+	{
+		date:"14日02月",
+		address:"西安",
+		img_num:1,
+		imgArr: ["../../static/articleImg/01.jpg","../../static/articleImg/02.jpg","../../static/articleImg/03.jpg","../../static/articleImg/04.jpg","../../static/articleImg/05.jpg","../../static/articleImg/06.jpg","../../static/articleImg/07.jpg","../../static/articleImg/08.jpg","../../static/articleImg/09.jpg","../../static/articleImg/10.jpg"],
+		content:'会议强调，要继续集中力量和资源，全面加强湖北省和武汉市疫情防控。要巩固排查和收治成果，切实控制传染源、切断传播途径。要夯实社区排查和防控基础，抽调更多干部支援基层，支持各类在当地的干部积极投身社区防控工作，充分调动群众自我管理、自我服务的积极性，加快补齐老旧小区在卫生防疫、社区服务等方面的短板，深入细致做好群众基本生活保障工作，加强思想政治工作，加强群众心理疏导。',
+	},
+	{
+		date:"14日02月",
+		address:"西安",
+		img_num:0,
+		imgArr: ["../../static/articleImg/01.jpg","../../static/articleImg/02.jpg","../../static/articleImg/03.jpg","../../static/articleImg/04.jpg","../../static/articleImg/05.jpg","../../static/articleImg/06.jpg","../../static/articleImg/07.jpg","../../static/articleImg/08.jpg","../../static/articleImg/09.jpg","../../static/articleImg/10.jpg"],
+		content:'会议强调，要继续集中力量和资源，全面加强湖北省和武汉市疫情防控。要巩固排查和收治成果，切实控制传染源、切断传播途径。要夯实社区排查和防控基础，抽调更多干部支援基层，支持各类在当地的干部积极投身社区防控工作，充分调动群众自我管理、自我服务的积极性，加快补齐老旧小区在卫生防疫、社区服务等方面的短板，深入细致做好群众基本生活保障工作，加强思想政治工作，加强群众心理疏导。',
+	}
+]
 export default {
 	tabList,
 	newsList,
@@ -307,5 +360,8 @@ export default {
 	actionlist,
 	articlelist,
 	carelist,
-	discoverList
+	discoverList,
+	cenrter_tabBars,
+	cenrter_moreList,
+	petTimelist
 }

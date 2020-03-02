@@ -231,12 +231,6 @@
 					}).exec();
 				});
 			},
-			clcik_public() {
-				uni.showToast({
-					icon: "none",
-					title: "主人，请等待……"
-				})
-			},
 			click_cardBars(e){
 				var index = Number(e);
 				// uni.showToast({

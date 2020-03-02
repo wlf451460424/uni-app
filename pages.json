@@ -75,6 +75,73 @@
 		    "path" : "pages/login/login",
 		    "style" : {
 				"navigationBarTitleText" : "登录",
+				// "navigationStyle":"custom",//隐藏原生导航栏
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置
+							{
+								"type":"none",
+								"text":"密码登录",
+								"float":"right",
+								"fontSize":"12px",
+								"right":"20upx"
+							}
+							// {
+							// 	"type":"none",
+							// 	"text":"\ue61a",
+							// 	"fontSrc": "/static/iconfont.ttf",
+							// 	"float":"left",
+							// 	"fontSize":"16px"
+							// }
+						]
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/login/verificationPage",
+		    "style" : {
+				"navigationBarTitleText" : "输入验证码",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/login/Account_login",
+		    "style" : {
+				"navigationBarTitleText" : "密码登录",
+				// "navigationStyle":"custom",//隐藏原生导航栏
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置
+							{
+								"type":"none",
+								"text":"免密码登录",
+								"float":"right",
+								"fontSize":"12px",
+								"right":"20upx"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/login/setPassword",
+		    "style" : {
+				"navigationBarTitleText" : "设置密码",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/login/etrievePassword",
+		    "style" : {
+				"navigationBarTitleText" : "找回密码",
 				"app-plus": {
 					"navigationBarTextStyle": "white",
 					"bounce": "none"
@@ -98,6 +165,88 @@
 				"app-plus": {
 					"navigationBarTextStyle": "white",
 					"bounce": "none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/center/add_pet",
+		    "style" : {
+				"navigationBarTitleText" : "添加宠物",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置
+							{
+								"type":"none",
+								"text":"保存",
+								"float":"right",
+								"fontSize":"16px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/center/pet_Archives",
+		    "style" : {
+				"navigationBarTitleText" : "宠物档案",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置
+							{
+								"type":"none",
+								"text":"\ue61a",
+								"fontSrc": "/static/iconfont.ttf",
+								"float":"right",
+								"fontSize":"20px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/center/edit_pet_Archives",
+		    "style" : {
+				"navigationBarTitleText" : "编辑宠物",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置
+							{
+								"type":"none",
+								"text":"保存",
+								"float":"right",
+								"fontSize":"16px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/center/pet_Details",
+		    "style" : {
+				"navigationBarTitleText" : "宠物详情",
+				"app-plus": {
+					"navigationBarTextStyle": "white",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置
+							{
+								"type":"none",
+								"text":"\ue611",
+								"fontSrc": "/static/iconfont.ttf",
+								"float":"right",
+								"fontSize":"20px"
+							}
+						]
+					}
 				}
 			}
 		},
@@ -137,6 +286,18 @@
 				"navigationBarTitleText" : "文章详情",
 				"navigationBarBackgroundColor": "#000000",
 				"backgroundColor": "#000000"
+			}
+		},
+		{
+		    "path" : "pages/other/concern_page",
+		    "style" : {
+				"navigationBarTitleText" : "关注列表"
+			}
+		},
+		{
+		    "path" : "pages/other/fans_page",
+		    "style" : {
+				"navigationBarTitleText" : "粉丝列表"
 			}
 		},
 		{
@@ -191,6 +352,12 @@
 		    "path" : "pages/discover/daren_view",
 		    "style" : {
 				"navigationBarTitleText" : "达人"
+			}
+		},
+		{
+		    "path" : "pages/other/share_page",
+		    "style" : {
+				"navigationBarTitleText" : "分享"
 			}
 		}
     ],

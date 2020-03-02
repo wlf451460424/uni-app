@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
-		<view class="info_div" style="flex-direction: column; margin:20upx;" :id="info_id">
-			<view style="flex-direction: column; padding: 20upx 0; border-bottom: 1upx solid #AAAAAA;">
+		<view class="info_div" style="flex-direction: column;" :id="info_id">
+			<view style="flex-direction: column; padding:20upx 0; border-bottom: 1upx solid #AAAAAA;">
 				<view style="flex-direction: row;" @click="goActionItem_Details">
 					<image :src="headerImg"  style="width: 100upx;height: 100upx;border-radius: 50upx;"></image>
 					<view style="flex-direction: column; margin-left: 20upx;">
